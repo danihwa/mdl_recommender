@@ -24,6 +24,7 @@ returns table (
   similarity float
 )
 language sql stable
+SET search_path = public 
 as $$
   select
     id,
